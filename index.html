@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="container">
+       <div class="heading"><h1>Student Enrollment form</h1></div> 
+        <div class="box">
+            <div class="right">
+                <label for="name">Name: </label>
+                <div><input type="text"  placeholder="Enter your name" class="text" id="Name"></div>
+                <label for="">Email</label>
+                <div><input type="email" placeholder="Enter your email "class="text" id="Email"></div>
+                <label for="">Website</label>
+                <div><input type="text" placeholder="Enter your website url" class="text" id="Website"></div>
+                <label for="">Gender</label>
+                <div>Male :<input type="radio" name="Mygender" id="" value="Male">
+                female :<input type="radio"  id="" name="Mygender" value="Female"></div>
+                <label for="">Skills</label>
+                <div>html : <input type="checkbox" name="skill" id="" value="html">
+                    css : <input type="checkbox" name="skill" id="" value="css">
+                    js : <input type="checkbox" name="skill" id="" value="js"></div>
+                    <div><button class ="btn">Submit</button>
+                        <button class="btn">Clear</button></div>
+            </div>
+          
+            <div class="left">
+                <div id="myname"></div>
+                <div id = "myemail"></div>
+                <div id="website"></div>
+                <div id="Gender"></div>
+                <div id="myskill"></div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div>&copy; copyright all rights reserved</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

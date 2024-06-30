@@ -1,0 +1,9 @@
+@media screen and(max-width:940px){
+    .box{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container{
+        height: 150vh;
+    }
+}
